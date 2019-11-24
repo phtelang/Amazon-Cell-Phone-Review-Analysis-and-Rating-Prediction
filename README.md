@@ -26,6 +26,6 @@ I analyzed the data for below given points:
 To view the code and graphs accurately, please click on __[this link](https://nbviewer.jupyter.org/github/phtelang/Data-Passion/blob/master/Amazon%20Cell%20Phone%20Review%20Analysis%20and%20Rating%20Predictions.ipynb)__ as some of the Plotly graphs are not displayed directly on Github.
 
 ### Installation
-  Download the csv datasets on your local folder.
-  Download the .ipynb (Jupyter file) and place it in the same folder as the source files.
-  Install the requirements using pip install -r requirements.txt. (Make sure you use Python 3.)
+- Download the csv datasets on your local folder.
+- Download the .ipynb (Jupyter file) and place it in the same folder as the source files.
+- Install the requirements using pip install -r requirements.txt. (Make sure you use Python 3.)
