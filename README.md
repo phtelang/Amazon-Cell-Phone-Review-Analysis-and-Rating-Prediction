@@ -1,16 +1,13 @@
-## Amazon Cell Phone Review Analysis and Rating Predictions
+## Amazon Cell Phone Review Analysis and Rating Prediction
 
-In this project, I analyzed Amazon cell phone reviews and predicted the rating for the cell phones using the reviews. This dataset focuses on both unlocked and locked carriers, and scoped on ten brands: ASUS, Apple, Google, HUAWEI, Motorola, Nokia, OnePlus, Samsung, Sony, and Xiaomi. Using the data, I analyzed the reviews, review words, brand and date-wise review differences and predicted the cell phone ratings using reviews. 
+In this project, I analyzed Amazon cell phone reviews and predicted the rating for the cell phones using their reviews. This dataset focuses on both unlocked and locked carriers, and scoped on ten brands: ASUS, Apple, Google, HUAWEI, Motorola, Nokia, OnePlus, Samsung, Sony, and Xiaomi. Using the data, I analyzed the reviews, brand and date-wise review differences and predicted the cell phone ratings using reviews. 
 I used four models for prediction: LogisticRegression(), RandomForestClassifier(), MultinomialNB(), LinearSVC(). 
-- Logistic Regression algorithm is used when the relationship between the features and the target values is nonlinear. It performs a nonlinear transformation of the input features. The prediction is made on the probability value given by the model. 
-- Random Forest algorithm constructs a multitude of decision trees at training time and output the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. They use ensembling which combines the predictions of multiple models to create a more accurate final prediction. One of the major advantages of random forests over single decision trees is that they tend to overfit less. 
+- Logistic Regression is a classification algorithm. Logistic regression transforms its output using the logistic sigmoid function to return a probability value which is used for prediction.
+- Random Forest algorithm performs both classification and regression tasks using ensembling. Ensembling is done by training multiple decision trees on different data samples built by replacement. It combines the predictions of multiple models to create a more accurate final prediction. One of the major advantages of random forests over single decision trees is that they tend to overfit less. 
 - A Naive Bayes classifier is a probabilistic machine learning model that is used for classification task. Using Bayes theorem, we can find the probability of A happening, given that B has occurred. The assumption made here is that the predictors/features are independent. Hence it is called naive.
-- Support Vector Classifiers tries to find the best hyperplane to separate the different classes by maximizing the distance between sample points and the hyperplane.
+- Support Vector Classifiers tries to construct the best hyperplane to separate a dataset into different classes in the best possible way by maximizing the distance between sample points and the hyperplane. Based on the hyperplane, it predicts the output.
 
-There are two files in this dataset: 
-1. Cell phone information data and 
-2. Cell phone review data. 
-The dataset can be downloaded from __[here](https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews)__.
+There are two files in this dataset which can be downloaded from __[here](https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews)__
 
 ### Summary of Results
 1. Majority of the reviews have less than 100 words.
