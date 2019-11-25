@@ -7,7 +7,7 @@ I used four models for prediction: LogisticRegression(), RandomForestClassifier(
 - A Naive Bayes classifier is a probabilistic machine learning model that is used for classification task. Using Bayes theorem, we can find the probability of A happening, given that B has occurred. The assumption made here is that the predictors/features are independent. Hence it is called naive.
 - Support Vector Classifiers tries to construct the best hyperplane to separate a dataset into different classes in the best possible way by maximizing the distance between sample points and the hyperplane. Based on the hyperplane, it predicts the output.
 
-There are two files in this dataset which can be downloaded from __[here](https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews)__
+There are two files in this dataset which can be downloaded from __[here.](https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews)__
 
 ### Summary of Results
 1. Majority of the reviews have less than 100 words.
